@@ -10,14 +10,10 @@ const path = require('path')
 
 // const acceptCSV = (file = '')
 
-// console.log(csvtojson())
+fs.readFile(path.join(__dirname, 'data', 'customer-data.csv'), 'utf-8', (error, data) => {
+  if (error) {
+    throw error 
+  }
 
-const foldername = 'data'
-
-if (fs.existsSync(path.join(__dirname, foldername))) {
-  console.log('file exists')
-} else {
-  console.log('no file here')
-}
-
-// console.log(path.join(__dirname, foldername))
+  console.log(data)
+})
