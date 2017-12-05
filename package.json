@@ -4,7 +4,7 @@
   "description": "csv to json converter ",
   "main": "index.js",
   "scripts": {
-    "test": "xo && ava"
+    "test": "standard && ava"
   },
   "repository": {
     "type": "git",
@@ -26,9 +26,6 @@
   },
   "devDependencies": {
     "ava": "^0.24.0",
-    "xo": "^0.18.2"
-  },
-  "xo": {
-    "semicolon": false
+    "standard": "^10.0.3"
   }
 }
