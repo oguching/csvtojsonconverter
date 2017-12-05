@@ -1,0 +1,31 @@
+{
+  "name": "csvtojsonconverter",
+  "version": "1.0.0",
+  "description": "csv to json converter ",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oguching/csvtojsonconverter.git"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "converter"
+  ],
+  "author": "oguchi nzekwe <oguching@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oguching/csvtojsonconverter/issues"
+  },
+  "homepage": "https://github.com/oguching/csvtojsonconverter#readme",
+  "dependencies": {
+    "csvtojson": "1.1.9"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "xo": "^0.18.2"
+  }
+}
