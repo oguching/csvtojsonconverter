@@ -6,11 +6,11 @@ const path = require('path')
 
 const csvFilePath = path.join(__dirname, 'data', 'customer-data.csv')
 
-const convertToJSON = (csvfile = csvFilePath) => {
+const convertToJSON = (csvFile = csvFilePath) => {
   const jsonFile = []
 
   csv()
-  .fromFile(csvfile)
+  .fromFile(csvFile)
   .on('json', (jsonObj) => {
     jsonFile.push(jsonObj)
   })
