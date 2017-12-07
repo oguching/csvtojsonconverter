@@ -19,12 +19,9 @@ const convertToJSON = (csvFile = csvFilePath) => {
       if (error) {
         throw error
       }
-      console.log(`file ${csvfile} should be written`)
+      console.log(`file ${csvFile} has been written`)
     })
-
     if (error) { throw error }
-
-    // console.log(jsonFile)
   })
 }
 
