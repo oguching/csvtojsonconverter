@@ -2,8 +2,8 @@
 Module 1 Assignment Lab: CSV to JSON Converter 
 
 **Usage**  
-`$ node index.js` or   
-`$ node index.js path-to-csv-file`
+`$ node converter.js` or   
+`$ node converter.js path-to-csv-file`
 
 **Walkthrough** 
 * We import `csvtojson`, `fs` and `path` into my project. `csvtojson` is an npm module while the others are node core modules.
