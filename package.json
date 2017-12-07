@@ -2,7 +2,7 @@
   "name": "csvtojsonconverter",
   "version": "1.0.0",
   "description": "csv to json converter ",
-  "main": "index.js",
+  "main": "converter.js",
   "scripts": {
     "test": "standard"
   },
