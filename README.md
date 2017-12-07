@@ -12,6 +12,7 @@ Module 1 Assignment Lab: CSV to JSON Converter
 * The function `convertToJSON()` accepts a csv file and converts the file to JSON format. If no file is specified, a default file is used. In the function we create an array to hold each JSON object so that we have an array of JSON objects.
 * Next we call the `csvtojson()` function and pass in our csv file, we listen for the `json` event and push each event to array.
 * When the `done` event is triggered we call `JSON.stringify()` and pass our array as argument then write its contents to file. We then log a message on successful write.
+* I'm using the async `fs.writeFile()` for no other reason than that I  prefer it.
 
 **Notes**    
 * At first attempt I named the repo csvtojson and tried to install the `csvtojson` module from npm. Npm complained so I changed my project name to avoid the name conflict.
