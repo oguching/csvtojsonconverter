@@ -15,7 +15,7 @@ const convertToJSON = (csvFile = csvFilePath) => {
     jsonFile.push(jsonObj)
   })
   .on('done', (error) => {
-    fs.writeFile('out.json', JSON.stringify(jsonFile), 'utf-8', (error) => {
+    fs.writeFile('out.json', JSON.stringify(jsonFile, null, 2), 'utf-8', (error) => {
       if (error) {
         throw error
       }
